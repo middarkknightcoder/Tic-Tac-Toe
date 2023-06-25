@@ -1,0 +1,89 @@
+body {
+
+    /* width: 700px;
+    margin: auto; */
+    text-align: center;
+    background-color: #24202c;
+    color: white;
+}
+
+.heading {
+
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #06a575;
+}
+
+#chooice{
+
+    margin: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: #0c583f;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.pchooice{
+
+    display: inline-block;
+    margin: 0;
+}
+
+table {
+    margin: auto;
+}
+td{ 
+
+    border: 2px solid #26d9a7;
+    width: 8rem;
+    height: 8rem;
+    font-size:6rem ;
+    text-align: center;
+    background-color: #000000;
+    color: #13e37f;
+    padding: 3px;
+    /* text-decoration-line:line-through; */
+}
+
+.i{
+
+    width: 6rem;
+    height: 6rem;
+    background-color: #000000;
+    border: none;
+    outline: none;
+
+}
+
+
+#gameInfo{
+
+    font-size: 3rem;
+    border: 3px dotted #538f72;
+    width: 400px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.8rem;
+    color: #00faa0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Rbtn {
+
+    font-size: 2rem;
+    margin-top: 2rem;
+    background-color: #92a9a0;
+    color: #214e38;
+    padding: 0.8rem;
+    border-radius:1.2rem ;
+}
+#Rbtn:hover{
+
+    background-color: #6ad5b3;
+    color: #1d3d29;
+
+}
+

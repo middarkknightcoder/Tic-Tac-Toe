@@ -1,4 +1,10 @@
-// This is flag for choose the turn 
+// let Player1 = prompt("Entr the name of the first player");
+// let Player2 = prompt("Enter the nme of the second player");
+
+// document.getElementById("p1chooice").innerHTML = Player1;
+// document.getElementById("p2chooice").innerHTML = Player2;
+
+// This is flag for choose the turn
 
 let flag = 0; //Globle variable
 
@@ -249,6 +255,7 @@ function checkResult() {
     } else if (array[0][2] == "O" && array[1][1] == "O" && array[2][0] == "O") {
 
         gameInfo.innerHTML = "Player-1 Won";
+        gameInfo.style.color = "Red";
         tdc3.style.textDecoration = "line-through";
         tdc5.style.textDecoration = "line-through";
         tdc7.style.textDecoration = "line-through";
